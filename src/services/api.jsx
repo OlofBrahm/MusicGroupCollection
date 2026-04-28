@@ -1,4 +1,4 @@
-const BASE_URL = "https://music.api.public.seido.se/api";
+const BASE_URL = "EMPTY";
 
 function createApiError(response, defaultMessage) {
   const error = new Error(`${defaultMessage}: ${response.status} ${response.statusText}`);
