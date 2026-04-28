@@ -1,0 +1,73 @@
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.add-group-form #group-genre {
+  background-color: var(--primary-color);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  height: 36.5px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+label {
+  font-weight: bold;
+  color: var(--border-color);
+  font-size: 0.9rem;
+}
+
+input,
+textarea,
+select {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--border-color);
+  transition: var(--border-color) 0.3s ease;
+}
+
+input,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--border-color);
+  opacity: 0.2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.submit-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.submit-btn:hover {
+  opacity: 0.6;
+}

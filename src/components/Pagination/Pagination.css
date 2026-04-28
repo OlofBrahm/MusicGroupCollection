@@ -1,0 +1,26 @@
+.pagination {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-nav {
+  background: var(--secondary-color);
+  border: none;
+  color: var(--border-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-nav:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.pagination span {
+  display: flex;
+  align-items: center;
+  color: var(--border-color);
+}

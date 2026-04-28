@@ -1,0 +1,15 @@
+
+.member-pills {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.member-pills li {
+	background: var(--secondary-color);
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-size: 0.9rem;
+}
